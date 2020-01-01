@@ -23,7 +23,7 @@ Not tested on Mac OS, but I suppose it works)
 > Chromium  
 
 - Download && Execute the project
-> git clone
+> git clone https://github.com/Mastercliff/electron-calculator.git
 
 > cd electron-calculator
 
