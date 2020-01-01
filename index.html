@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/icons/css/all.css">
+    <link rel="stylesheet" href="./css/icons/css/solid.css">
+</head>
+<body>
+    <div class="main">
+        <div class="top-side">
+            <input id="input-main" type="text">
+            <button onclick="remo()"  style="margin-left:2px ; width: 60px; height: 60px;"><i class="fas fa-arrow-left"></i></button>
+            <button onclick="reset()"  style="margin-left:2px ; width: 60px; height: 60px;">C</button>
+        </div>
+
+        <div class="block-1 info">
+            <button onclick="bClick()">1</button>
+            <button onclick="bClick()">2</button>
+            <button onclick="bClick()">3</button>
+        </div>
+        <div class="block-2 info">
+            <button onclick="bClick()">4</button>
+            <button onclick="bClick()">5</button>
+            <button onclick="bClick()">6</button>
+        </div>
+        <div class="block-3 info">
+            <button onclick="bClick()">7</button>
+            <button onclick="bClick()">8</button>
+            <button onclick="bClick()">9</button>
+        </div> 
+        <div class="block-4">
+            <button onclick="bClick()">0</button>
+            <button onclick="result()">=</button>
+            <button onclick="bClick()">+</button>
+        </div>
+        <div class="block-4">
+            <button onclick="bClick()">-</button>
+            <button onclick="bClick()">*</button>
+            <button onclick="bClick()">/</button>
+        </div>
+        <footer style="cursor: pointer; color: white; font-family: 'Courier New', Courier, monospace; text-align: center;">
+            <i onclick="info_alert()" style="cursor: pointer;" class="fas fa-code"></i>
+        </footer>
+    </div>
+
+    <script src="./renderer.js"></script>
+</body>
+</html>
