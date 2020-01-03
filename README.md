@@ -3,7 +3,7 @@
 
 
 The calculator is a simple and powerful project that allows you to perform all four mathematical operations.
-# Supported Platforms
+## Supported Platforms
 
 - [x] Linux
 - [x] Windows
@@ -31,4 +31,10 @@ Not tested on Mac OS, but I suppose it works)
 
 ### Build Version
 
-None
+- Linux
+> Download - https://drive.google.com/open?id=1BJDdQd02VNoTgtOeHpDJqoyvCRybqlMV
+
+- Windows
+> Download - none
+- MacOS
+> Download - none
