@@ -29,7 +29,7 @@ Not tested on Mac OS, but I suppose it works)
 
 > electron .
 
-### Build Version
+### Compiled version
 
 - Linux
 > Download - https://drive.google.com/open?id=1BJDdQd02VNoTgtOeHpDJqoyvCRybqlMV
